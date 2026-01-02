@@ -2,7 +2,7 @@
 
 Turn the ingredients you already have into a delicious recipe — powered by **Anthropic’s Claude AI** and built with **Next.js**.
 
-👉 Live demo: https://ai-recipe-generator-claude-c50qul7f7-upnits-projects.vercel.app  
+👉 Live demo: https://ai-recipe-generator-claude-api.vercel.app/
 *(No signup, no tracking — just cooking inspiration)*
 
 ---
