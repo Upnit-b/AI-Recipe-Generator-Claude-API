@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍🍳 Recipe Generator — AI Recipe Generator
 
-## Getting Started
+Turn the ingredients you already have into a delicious recipe — powered by **Anthropic’s Claude AI** and built with **Next.js**.
 
-First, run the development server:
+👉 Live demo: https://ai-recipe-generator-claude-c50qul7f7-upnits-projects.vercel.app  
+*(No signup, no tracking — just cooking inspiration)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ What is Recipe Generator?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Recipe Generator** is a modern, AI-powered web app that helps you decide *what to cook* using the ingredients you already have at home.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Instead of searching endless recipes, you simply:
+1. Add your ingredients
+2. Click **“Get a recipe”**
+3. Instantly receive a **beautifully formatted recipe in Markdown**
 
-## Learn More
+The AI may suggest a few extra ingredients — but always keeps it realistic and minimal.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 How it Works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Users add ingredients via a clean, intuitive UI
+- Ingredients are sent to a **server-side Next.js API route**
+- Claude AI generates a recipe based on the input
+- The recipe is returned in **Markdown**
+- Markdown is rendered cleanly for a great reading experience
 
-## Deploy on Vercel
+🔒 **Your API key is never exposed to the browser**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Features
+
+- 🧾 Ingredient input with smart duplicate handling
+- ✂️ Remove ingredients easily (chip-based UI)
+- 🤖 AI-generated recipes using Claude 3
+- 📄 Markdown-rendered recipes (headings, lists, steps)
+- 🎨 Modern, accessible UI (Tailwind CSS)
+- 🔐 Secure server-side API integration
+- 🌍 Deployed on Vercel (no custom domain required)
+
+---
+
+## 🛠 Tech Stack
+
+| Layer        | Technology |
+|-------------|------------|
+| Frontend     | Next.js (App Router) |
+| Styling      | Tailwind CSS |
+| AI Model     | Anthropic Claude 3 Haiku |
+| Markdown     | react-markdown |
+| Validation   | Zod |
+| Deployment   | Vercel |
+| Runtime      | Node.js |
+
+---
+
+```text
+Add ingredients → Generate recipe → Enjoy cooking
