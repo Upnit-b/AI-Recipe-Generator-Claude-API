@@ -3,7 +3,7 @@
 Turn the ingredients you already have into a delicious recipe — powered by **Anthropic’s Claude AI** and built with **Next.js**.
 **A production-ready, server-secure AI web application built with Next.js & Claude**
 
-🔗 **Live Demo:** https://ai-recipe-generator-claude.vercel.app  
+🔗 **Live Demo:** https://ai-recipe-generator-claude-api.vercel.app/
 📦 **Tech Focus:** Next.js (App Router), Serverless APIs, AI Integration, Secure Deployment
 
 
